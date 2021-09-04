@@ -1,0 +1,96 @@
+h1,h2,h3,h4,ul,li {
+  margin: 0px;
+  padding: 0px;
+  font-weight: normal;
+}
+body {
+  color: #666;
+
+}
+header {
+  text-align: center;
+  margin: 0 auto;
+  
+}
+.logo {
+  width: 400px;
+  margin: 30px auto;
+  
+}
+.container {
+  max-width: 1190px;
+  margin: 0 auto;
+  padding: 0px;
+}
+nav ul li {
+  list-style: none;
+  display: inline;/* block:縦並び，inline:横並び（liはblock要素）*/
+  
+}
+nav {
+  text-align: center;
+  
+}
+nav li a {
+  padding: 15px 30px;
+  text-decoration: none;
+  color: #666;
+}
+nav li a:hover {
+  border-bottom: 4px solid #d08047;
+}
+a {
+  transition: 0.3s;
+}
+h2 {
+  color: #fff;
+  background-color: #d08047;
+  border-radius: 10px;
+  padding: 15px 20px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+div {
+  display: block;
+}
+.list {
+  border-bottom: 1px solid #ccc;
+  /* vertical-align: top; */
+  /* display: flex;
+  flex-direction:column; */
+}
+.Description {
+  display: inline-block;
+	vertical-align: top;
+  margin: 20px 10px;
+  line-height: 2;
+}
+.mainimg {
+  width: 230px;
+  height: 230px;
+  padding: 20px 20px;
+}
+.Description p {
+  margin: 0;
+
+}
+.Description h4 {
+  color: #d08047;
+  margin: 0;
+}
+footer {
+  text-align: center;
+  font-size: 13px;
+  margin-top: 30px;
+}
+.footer-under {
+  font-size: 12px;
+}
+footer a {
+  text-decoration: none;
+  color:#666;
+}
+footer a:hover {
+  color: #d08047;
+}

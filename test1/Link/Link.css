@@ -1,0 +1,122 @@
+h1,h2,h3,ul,li {
+  margin: 0px;
+  padding: 0px;
+  font-weight: normal;
+  font-size: 16px;
+}
+body {
+  color: #666;
+
+}
+header {
+  text-align: center;
+  margin: 0 auto;
+  
+}
+.logo {
+  width: 400px;
+  margin: 30px auto;
+  
+}
+.container {
+  max-width: 1190px;
+  margin: 0 auto;
+  padding: 0px;
+}
+nav ul li {
+  list-style: none;
+  display: inline;/* block:縦並び，inline:横並び（liはblock要素）*/
+  
+}
+nav {
+  text-align: center;
+  
+}
+nav li a {
+  padding: 15px 30px;
+  text-decoration: none;
+  color: #666;
+}
+nav li a:hover {
+  border-bottom: 4px solid #d08047;
+}
+a {
+  transition: 0.3s;
+}
+h2 {
+  color: #fff;
+  background-color: #d08047;
+  border-radius: 10px;
+  padding: 15px 20px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+table {
+  border-collapse: collapse;
+  font-size: 100%;
+  border-spacing: 0;
+}
+.ta1 caption {
+  border: 1px solid #999;
+  border-bottom: none;
+  text-align: left;
+  background: #eee;
+  font-weight: bold;/* 文字太く */
+  padding: 10px;
+}
+caption {
+  display: table-caption;/* caption要素のような表示にする */
+  text-align: -webkit-center;
+}
+/* widthの取ることのできる最大値 */
+.mainimg {
+  border: none;
+  max-width: 100%;/* widthの取ることのできる最大値 */
+  height: auto;
+  vertical-align: middle; /* 縦方向の揃え位置 */
+}
+tr {
+  display: table-row;/* tr要素のような表示にする */
+  vertical-align: inherit;
+  border-color: inherit;
+}
+.ta1 th {
+  text-align: center;
+  width: 30%;
+  display: table-cell;/* td要素のような表示にする */
+  vertical-align: inherit;
+  font-weight: bold;
+  text-align: -internal-center;
+}
+.ta1, .ta1 td, .ta1 th {
+  word-break: break-all;
+  border: 1px solid #999;
+  padding: 10px;
+}
+
+th a {
+  color: #666;
+}
+th a:hover {
+  color: #d08047;
+}
+td {
+  display: table-cell;/* td要素のような表示にする */
+  vertical-align: inherit;
+}
+footer {
+  text-align: center;
+  font-size: 13px;
+  margin-top: 30px;
+}
+.footer-under {
+  font-size: 12px;
+}
+footer a {
+  text-decoration: none;
+  color:#666;
+}
+footer a:hover {
+  color: #d08047;
+}
